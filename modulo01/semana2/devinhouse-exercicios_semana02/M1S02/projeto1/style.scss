@@ -44,6 +44,25 @@
       ul.topnav li {float: none;}
 }
 
+
+.formulario {
+  display: block;
+  text-align: center;
+  margin: 30px;
+  align-content: flex-end;
+}
+
+
+.formulario p{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.botao-enviar {
+  margin: 10px;
+}
+
+
 .lista-de-eventos {
   display: flex;
   list-style: none;
@@ -53,7 +72,6 @@
   border-color: #333;
   border-style:dotted;
   border-width: 0.5px;
-  border-top: none;
   border-left: none;
 }
 

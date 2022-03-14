@@ -51,6 +51,23 @@ ul.topnav li.left {
   }
 }
 
+.formulario {
+  display: block;
+  text-align: center;
+  margin: 30px;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.formulario p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.botao-enviar {
+  margin: 10px;
+}
+
 .lista-de-eventos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,7 +79,6 @@ ul.topnav li.left {
   border-color: #333;
   border-style: dotted;
   border-width: 0.5px;
-  border-top: none;
   border-left: none;
 }
 

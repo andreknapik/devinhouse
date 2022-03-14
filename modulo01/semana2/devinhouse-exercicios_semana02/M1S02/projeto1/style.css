@@ -90,4 +90,13 @@ ul.topnav li.left {
   text-align: center;
   margin: 30px;
 }
+
+.rodape {
+  display: flexbox;
+  height: 130px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  margin-bottom: none;
+}
 /*# sourceMappingURL=style.css.map */

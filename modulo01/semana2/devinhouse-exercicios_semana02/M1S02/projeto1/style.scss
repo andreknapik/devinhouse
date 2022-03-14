@@ -43,3 +43,25 @@
       ul.topnav li.left, 
       ul.topnav li {float: none;}
 }
+
+.lista-de-eventos {
+  display: flex;
+  list-style: none;
+}
+
+.evento {
+  border-color: #333;
+  border-style:dotted;
+  border-width: 0.5px;
+  border-top: none;
+  border-left: none;
+}
+
+.lista-de-eventos img {
+  border-radius: 2px;
+}
+
+.imgs {
+  text-align: center;
+  margin: 30px;
+}

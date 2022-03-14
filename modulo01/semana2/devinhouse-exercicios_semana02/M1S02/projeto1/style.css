@@ -51,5 +51,27 @@ ul.topnav li.left {
   }
 }
 
+.lista-de-eventos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
 
+.evento {
+  border-color: #333;
+  border-style: dotted;
+  border-width: 0.5px;
+  border-top: none;
+  border-left: none;
+}
+
+.lista-de-eventos img {
+  border-radius: 2px;
+}
+
+.imgs {
+  text-align: center;
+  margin: 30px;
+}
 /*# sourceMappingURL=style.css.map */

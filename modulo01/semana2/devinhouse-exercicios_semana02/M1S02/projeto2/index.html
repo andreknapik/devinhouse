@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens Shostners</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/modulo01/semana2/devinhouse-exercicios_semana02/M1S02/projeto2/img/shost_viagens.png" height="30px" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Hotéis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Roteiros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pacotes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Machu Pichu</a></li>
+                  <li><a class="dropdown-item" href="#">Roma + Veneza</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Cruzeiros</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Busca" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Busca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+          </button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/modulo01/semana2/devinhouse-exercicios_semana02/M1S02/projeto2/img/6.png" height="400px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/modulo01/semana2/devinhouse-exercicios_semana02/M1S02/projeto2/img/7.png" height="400px"class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/modulo01/semana2/devinhouse-exercicios_semana02/M1S02/projeto2/img/8.png" height="400px" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div style="display: flex; height: 60px; background: #3852FF; text-align: center; align-items: center; content: center; justify-content: center; color:white; align-content: center;" class="">
+        <h5 style="align-content: center;margin:30px" class="">Para onde você quer ir?</h5>
+        <input style="margin:30px" type="text" placegolder="Digite para onde você quer viajar..">
+        <h5 style="margin:30px" class="">Qual data aproximada?</h5>
+        <input style="margin:30px" type="date">
+        <input style="margin:30px; background:orangered; border: none; font-size:larger; border-radius:5px; color: white;" type="button" value="Embarcar">
+        </div>
+
+      <!-- COMEÇAM OS CARDS -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem; margin:30px">
+              <img src="/modulo01/semana2/devinhouse-exercicios_semana02/M1S02/projeto2/img/locais/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SHANGHAI</h5>
+                <p class="card-text">Cinco Dias + 3 Diárias + Passagem + Translado até o Hotel e Passeios. Venha sentir a magia do local com nossa equipe. <br><br>A partir de <strong style="color:orangered">R$1998</strong></p>
+                <a href="#" class="btn btn-primary">Embarcar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; margin:30px">
+              <img src="/modulo01/semana2/devinhouse-exercicios_semana02/M1S02/projeto2/img/locais/2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SUIÇA</h5>
+                <p class="card-text">Cinco Dias + 3 Diárias + Passagem + Translado até o Hotel e Passeios. Venha sentir a magia do local com nossa equipe. <br><br>A partir de <strong style="color:orangered">R$1998</strong></p>
+                <a href="#" class="btn btn-primary">Embarcar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; margin:30px">
+              <img src="/modulo01/semana2/devinhouse-exercicios_semana02/M1S02/projeto2/img/locais/3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MACHU PICHU</h5>
+                <p class="card-text">Cinco Dias + 3 Diárias + Passagem + Translado até o Hotel e Passeios. Venha sentir a magia do local com nossa equipe. <br><br>A partir de <strong style="color:orangered">R$1998</strong></p>
+                <a href="#" class="btn btn-primary">Embarcar</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card" style="width: 18rem; margin:30px">
+              <img src="/modulo01/semana2/devinhouse-exercicios_semana02/M1S02/projeto2/img/locais/4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CANCUN</h5>
+                <p class="card-text">Cinco Dias + 3 Diárias + Passagem + Translado até o Hotel e Passeios. Venha sentir a magia do local com nossa equipe. <br><br>A partir de <strong style="color:orangered">R$1998</strong>/p>
+                <a href="#" class="btn btn-primary">Embarcar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; margin:30px">
+              <img src="/modulo01/semana2/devinhouse-exercicios_semana02/M1S02/projeto2/img/locais/5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ROMA + VENEZA</h5>
+                <p class="card-text">Cinco Dias + 3 Diárias + Passagem + Translado até o Hotel e Passeios. Venha sentir a magia do local com nossa equipe. <br><br>A partir de <strong style="color:orangered">R$1998</strong></p>
+                <a href="#" class="btn btn-primary">Embarcar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; margin:30px">
+              <img src="/modulo01/semana2/devinhouse-exercicios_semana02/M1S02/projeto2/img/locais/6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MANAUS</h5>
+                <p class="card-text">Cinco Dias + 3 Diárias + Passagem + Translado até o Hotel e Passeios. Venha sentir a magia do local com nossa equipe. <br><br>A partir de <strong style="color:orangered">R$1998</strong></p>
+                <a href="#" class="btn btn-primary">Embarcar</a>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+</body>
+<footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</footer>
+</html>

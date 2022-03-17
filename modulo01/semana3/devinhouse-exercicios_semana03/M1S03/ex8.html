@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 08</title>
+</head>
+<body>
+    <script class="">
+        let operador = window.prompt("Digite qual operação você quer fazer:(+, -, *, /)")
+        let primeiroValor = window.prompt("Digite o primeiro valor:")
+        let segundoValor = window.prompt("Digite o segundo valor:")
+        primeiroValor = Number(primeiroValor)
+        segundoValor = Number(segundoValor)
+
+    
+        if (operador == "+") {
+            window.alert(`O valor é igual a ${primeiroValor + segundoValor}`)
+        } else if (operador == "-") {
+            window.alert(`O valor é igual a ${primeiroValor - segundoValor}`)
+        } else if (operador == "*") {
+            window.alert(`O valor é igual a ${primeiroValor * segundoValor}`)
+        } else if (operador == "/") {
+            window.alert(`O valor é igual a ${primeiroValor / segundoValor}`)
+        } else {
+            window.alert(`Você digitou um operador incorreto. Tente novamente.`)
+        }        
+    </script>
+</body>
+</html>
